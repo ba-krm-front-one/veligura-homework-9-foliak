@@ -1,0 +1,339 @@
+body {
+	max-width: 1920px;
+	margin: auto;
+}
+.header-comp{
+	background: url("../Homework-9-poliac/img-foliac/computer.png") no-repeat center;
+	height: 650px;
+}
+.container-header{
+	max-width: 1140px;
+	position: relative;
+	margin: auto;
+	height: 650px;
+}
+.header-nav{
+	position: absolute;
+	top:71px;
+	right: 0;
+}
+.header-nav li{
+	float: left;
+	padding-left: 40px;
+}
+.header-nav li:before{
+	content: url("../Homework-9-poliac/img-foliac/sep.png");
+	padding-right: 40px;
+}
+.header-nav a{
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-decoration: none;
+}
+.header-nav a:hover{
+	color:  #48bf72;
+}
+.logo{
+	padding-top: 30px;
+}
+.header-comp h1{
+	font-family: BigJohn;
+	color:  #ffffff;
+	font-size: 46px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	padding-top: 150px;
+	text-align: center;
+}
+.header-comp h3{
+	font-family: SlimJoe;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	padding-top: 20px;
+	text-align: center;
+}
+.header-btn{
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: #48bf72;
+	border-style: solid;
+	width: 134px;
+	height: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: Lato;
+	color:  #48bf72;
+	background: none;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+.header-btn:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.container-article{
+	max-width: 1140px;
+	margin: auto;
+}
+nav{
+	text-align: center;
+}
+.article-nav{
+	margin: auto;
+	display: inline-block;
+}
+.article-nav li{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+}
+.article-nav button{
+	border-radius: 2px;
+	background-color: #eaeaea;
+	width: 132px;
+	height: 32px;
+	font-family: Lato;
+	color:  #3c4955;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	border: none;
+}
+.article-nav button:focus{
+	background-color: #48bf72;
+	font-family: Lato;
+	color: #ffffff;
+}
+.portfolio-item{
+	height: 906px;
+}
+.article-item1 {
+	width: 450px;
+	height: 302px;
+	margin-right: 40px;
+	float: left;
+}
+.article-item2 {
+	width: 650px;
+	height: 438px;
+	float: right;
+}
+.article-item3 {
+	width: 450px;
+	height: 486px;
+	float: left;
+	margin-top: 40px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.article-item4 {
+	width: 650px;
+	height: 350px;
+	float: right;
+	margin-top: 40px;
+}
+.article-item1,
+.article-item2,
+.article-item3,
+.article-item4 {
+	position: relative;
+}
+.article-items-hover{
+	position: absolute;
+	background-color: rgba(72, 191, 114, 0.8);
+	border-radius: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	visibility: hidden;
+}
+.article-items-text{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	width: 160px;
+	height: 55px;
+	color: #ffffff;
+}
+.article-items-hover h3{
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0 auto 20px;
+}
+.article-items-hover p{
+	font-size: 16px;
+	font-weight: 400;
+}
+.article-item1:hover .article-items-hover,
+.article-item2:hover .article-items-hover,
+.article-item3:hover .article-items-hover,
+.article-item4:hover .article-items-hover {
+	visibility: visible;
+}
+.section-text{
+	background: url("../Homework-9-poliac/img-foliac/men-computer.png") no-repeat center;
+	max-width: 1920px;
+	height: 500px;
+	margin: auto;
+}
+.container-section{
+	max-width: 1140px;
+	margin: auto;
+	padding-right: 20%;
+}
+.section-text-block{
+	max-width: 400px;
+	height: 350px;
+	padding-top: 75px;
+	float: right;
+}
+.section-text-block h2{
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	padding-bottom: 4px;
+}
+.section-text-block h5{
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	padding-bottom: 39px;
+}
+.section-text-block p{
+	font-family: Lato;
+	color: #ffffff;
+	font-size: 16px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px; /* Приближение из-за подстановки шрифтов */
+	padding-bottom: 39px;
+}
+.section-btn{
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: #3c4955;
+	border-style: solid;
+	width: 148px;
+	height: 35px;
+	font-family: Lato;
+	color:  #3c4955;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-transform: uppercase;
+	background: none;
+}
+.section-btn:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.section-contact h5{
+	font-family: BigJohn;
+	color: #48bf72;
+	font-size: 26px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px; /* Приближение из-за подстановки шрифтов */
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.container-section-contact{
+	max-width: 1140px;
+	margin: auto;
+	text-align: center;
+}
+.section-contact
+.section-form-user ,
+.section-form-email{
+	display: inline-block;
+}
+.section-form-user{
+	padding-right: 28px;
+}
+.section-input-email ,
+.section-input-user{
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: #3c4955;
+	border-style: solid;
+	width: 266px;
+	height: 46px;
+}
+.section-input-user{
+	padding-left: 65px;
+	background: url("../Homework-9-poliac/img-foliac/icon-user.png") no-repeat left;
+	background-color: #f1f1f1;
+}
+.section-input-email{
+	padding-left: 65px;
+	background: url("../Homework-9-poliac/img-foliac/icon-email.png") no-repeat left;
+	background-color: #f1f1f1;
+}
+.section-form-textaria{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.section-textarea{
+	background: url("../Homework-9-poliac/img-foliac/icon-message.png") no-repeat left;
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: #3c4955;
+	border-style: solid;
+	background-color: #f1f1f1;
+	width: 631px;
+	height: 207px;
+	padding-left: 65px;
+	padding-top: 17px;
+}
+.btn-section-contact{
+	border-radius: 3px;
+	background-color: #48bf72;
+	width: 701px;
+	height: 50px;
+	font-family: Lato;
+	color: #ffffff;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px; /* Приближение из-за подстановки шрифтов */
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+.btn-section-contact:hover{
+	opacity: 0.5;
+}
+.footer-inform{
+	background-color:  #3c4955;
+	max-width: 1920px;
+	height: 201px;
+}
+.container-footer{
+	max-width: 1140px;
+	margin: auto;
+	position: relative;
+}
+.address{
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	padding-top: 93px;
+}
+.twitter{
+	position: absolute;
+	top: 76px;
+	right: 0;
+}
+.twitter li{
+	float: left;
+	padding-left: 40px;
+}
