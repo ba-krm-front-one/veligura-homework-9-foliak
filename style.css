@@ -3,7 +3,7 @@ body {
 	margin: auto;
 }
 .header-comp{
-	background: url("../Homework-9-poliac/img-foliac/computer.png") no-repeat center;
+	background: url(img-foliac/computer.png") no-repeat center;
 	height: 650px;
 }
 .container-header{
@@ -22,7 +22,7 @@ body {
 	padding-left: 40px;
 }
 .header-nav li:before{
-	content: url("../Homework-9-poliac/img-foliac/sep.png");
+	content: url("img-foliac/sep.png");
 	padding-right: 40px;
 }
 .header-nav a{
@@ -178,7 +178,7 @@ nav{
 	visibility: visible;
 }
 .section-text{
-	background: url("../Homework-9-poliac/img-foliac/men-computer.png") no-repeat center;
+	background: url("img-foliac/men-computer.png") no-repeat center;
 	max-width: 1920px;
 	height: 500px;
 	margin: auto;
@@ -270,12 +270,12 @@ nav{
 }
 .section-input-user{
 	padding-left: 65px;
-	background: url("../Homework-9-poliac/img-foliac/icon-user.png") no-repeat left;
+	background: url("img-foliac/icon-user.png") no-repeat left;
 	background-color: #f1f1f1;
 }
 .section-input-email{
 	padding-left: 65px;
-	background: url("../Homework-9-poliac/img-foliac/icon-email.png") no-repeat left;
+	background: url("img-foliac/icon-email.png") no-repeat left;
 	background-color: #f1f1f1;
 }
 .section-form-textaria{
@@ -283,7 +283,7 @@ nav{
 	padding-bottom: 20px;
 }
 .section-textarea{
-	background: url("../Homework-9-poliac/img-foliac/icon-message.png") no-repeat left;
+	background: url("img-foliac/icon-message.png") no-repeat left;
 	border-radius: 3px;
 	border-width: 2px;
 	border-color: #3c4955;
